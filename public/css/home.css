@@ -19,7 +19,7 @@
     justify-content: space-between;
 }
 
-.container .headr_left {
+.headr_frame .container .headr_left {
     position: relative;
     padding: 15px;
     width: 871px;
@@ -29,13 +29,13 @@
     background-image: url("../images/icons/header_bg.svg");
 }
 
-.headr_left .headr_container {
+.headr_frame .headr_left .headr_container {
     margin-top: 90px;
     display: flex;
     flex-direction: column;
 }
 
-.headr_container div {
+.headr_frame .headr_container div {
     width: 104px;
     height: 30px;
     display: flex;
@@ -54,7 +54,7 @@
    letter-spacing: 0%;
 }
 
-.headr_container span {
+.headr_frame .headr_container span {
     margin-top: 10px;
     width: 428px;
     
@@ -67,7 +67,7 @@
     letter-spacing: 0%;
 }
 
-.headr_container p {
+.headr_frame .headr_container p {
     /* width: 262px; */
     margin-top: 10px;
     font-family: Jost;
@@ -78,7 +78,7 @@
     color: #ffffff;
 }
 
-.headr_container a {
+.headr_frame .headr_container a {
     margin-top: 20px;
     width: 140px;
     height: 52px;
@@ -98,19 +98,19 @@
     line-height: 22px;  
 }
 
-.headr_container img {
+.headr_frame .headr_container img {
     position: absolute;
     right: 13px;
 }
 
-.container .headr_right {
+.headr_frame .container .headr_right {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.headr_right .headr_box {
+.headr_frame .headr_right .headr_box {
     margin-left: 15px;
    width: 422px;
    height: 240px;
@@ -120,7 +120,7 @@
    background: rgba(242, 242, 242, 1);
 }
 
-.headr_right .box_left {
+.headr_frame .headr_right .box_left {
     margin-left: 35px;
     width: 50%;
 
@@ -129,7 +129,7 @@
     justify-content: center;
 }
 
-.box_left span {
+.headr_frame .box_left span {
 
     font-family: Jost;
     font-style: normal;
@@ -139,7 +139,7 @@
     color: rgba(0, 83, 246, 1);
 }
 
-.box_left p {
+.headr_frame .box_left p {
 
     font-family: Jost;
     font-style: normal;
@@ -149,7 +149,7 @@
     color: rgba(4, 30, 66, 1);
 }
 
-.box_left a {
+.headr_frame .box_left a {
     font-family: Jost;
     font-style: normal;
     font-size: 15px;
@@ -159,18 +159,18 @@
     color: rgba(4, 30, 66, 1);
 }
 
-.box_left .hover_border {
+.headr_frame .box_left .hover_border {
     margin-top: 3px;
     width: 32px;
     height: 2px;
     background: rgba(4, 30, 66, 1);
 }
 
-.headr_box .box_right {
+.headr_frame .headr_box .box_right {
     width: 50%;
 }
 
-.box_right img {
+.headr_frame .box_right img {
     width: 100%;
     height: 100%;
 
@@ -226,4 +226,93 @@
     line-height: 22px;
 
     color: #626974;
+}
+
+/* SHOP CATEGORY */
+
+.shop_category_frame {
+    position: relative;
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.shop_category_frame .container {
+   flex-direction: column;
+}
+
+.container .category_top {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shop_category_frame .category_top span {
+   font-family: Jost;
+   font-style: normal;
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 40px;
+    color: #041E42;
+}
+
+.shop_category_frame .category_top a {
+   font-family: Jost;
+   font-style: normal;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 22px;
+    color: #041E42;
+}
+
+.shop_category_frame .category_top a:hover {
+    border-bottom: 2px solid #041E42;
+}
+
+.shop_category_frame .container .category_wrapper {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shop_category_frame .category_wrapper .category_box {
+   width: 142px;
+   height: auto;
+   
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.shop_category_frame .category_box .category_img_box {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 150px;
+    background: rgba(255, 255, 255, 1); 
+}
+
+.shop_category_frame .category_box span {
+    font-family: Jost;
+   font-style: normal;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 28px;
+    color: #041E42;
+    text-align: center;
+
 }

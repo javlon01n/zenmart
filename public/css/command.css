@@ -1,3 +1,7 @@
+:root {
+    --font: "Jost";
+}
+
 html,
 body {
     margin: 0;
@@ -90,7 +94,7 @@ border-right: 1px solid rgba(214, 214, 214, 1);
     outline: none;
 
     color: rgba(4, 30, 66, 1);
-    font-family: Jost;
+    font-family: var(--font);
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -108,7 +112,7 @@ border-right: 1px solid rgba(214, 214, 214, 1);
     
     color: rgba(98, 105, 116, 1);
 
-    font-family: Jost;
+    font-family:  var(--font);
     font-style: Regular;
     font-size: 15px;
     font-weight: 400;
@@ -175,7 +179,7 @@ border-right: 1px solid rgba(214, 214, 214, 1);
 .navbar_frame .box_info_box span {
     color: rgba(255, 255, 255, 1);
 
-font-family: Jost;
+font-family: var(--font);
 font-style: Regular;
 font-size: 15px;
 font-weight: 400;
@@ -188,7 +192,7 @@ text-align: left;
 .navbar_frame .box_info_box strong {
     color: rgba(255, 255, 255, 1);
 
-font-family: Jost;
+font-family: var(--font);
 font-style: Regular;
 font-size: 15px;
 font-weight: 500px;
@@ -327,7 +331,7 @@ text-align: left;
   height: 26px;
   color: rgba(4, 30, 66, 1);
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-size: 18px;
     font-weight: 500;
@@ -359,9 +363,9 @@ text-align: left;
     /* Monday-Friday: 08am-9pm */
     width: 209px;
     height: 22px;
-    color: rgba(4, 30, 66, 1);
-
-    font-family: Jost;
+    color: rgba(4, 30, 66, 1)
+    ;
+    font-family: var(--font);
     font-style: normal;
     font-size: 15px;
     font-weight: 500;
@@ -375,7 +379,7 @@ text-align: left;
     height: 22px;
     color: rgba(4, 30, 66, 1);
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-size: 15px;
     font-weight: 400;
@@ -396,7 +400,7 @@ text-align: left;
         height: 200px;
         color: rgba(4, 30, 66, 1);
 
-        font-family: Jost;
+        font-family: var(--font);
         font-style: normal;
         font-size: 14px;
         font-weight: 400;
@@ -451,7 +455,7 @@ text-align: left;
         height: 80px;
         color: rgba(4, 30, 66, 1);
 
-        font-family: Jost;
+        font-family: var(--font);
         font-style: normal;
         font-size: 14px;
         font-weight: 400;
@@ -498,7 +502,7 @@ text-align: left;
     margin-right: 60px;
     color: rgba(4, 30, 66, 1);
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
@@ -531,7 +535,7 @@ text-align: left;
  .footer_frame .footer_select_bex span {
     color: rgba(98, 105, 116, 1);
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
@@ -547,7 +551,7 @@ text-align: left;
     cursor: pointer;
     color: rgba(4, 30, 66, 1);
 
-    font-family: Jost;
+    font-family: var(--font);
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
